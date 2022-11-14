@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PadamBookStore.Data
+namespace PadamBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

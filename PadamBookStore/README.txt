@@ -7,3 +7,8 @@ at 9:19 am i added dropdown menu and addtional files required for the making of 
 at 9:22 am i changed the dropdown menu to content managment menu. 
 and i am stuck at navbar menu whihc i cannot figure out wha is going on updated readme
 but now i have figured it out and my drop down is working properly
+
+11/14/2022
+at 5:30pm I installed NugetPackages into Padambook.DataAccess
+At 5:31 pm I changed the namespace to PadamBookStore.DataAccess.Data
+
