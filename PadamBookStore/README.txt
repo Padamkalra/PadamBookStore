@@ -15,4 +15,4 @@ At 5:46 pm I moved the models folder into Padambooks.models  and added the pojec
 I chaned the name of models folder to view models.
 At 5:48 pm I changed the namespace in erros view models.cs
 
-at 6:01pm I mae a class name SD.cs in Padambookstore.utility
+at 6:01pm I made a class name SD.cs in Padambookstore.utility
