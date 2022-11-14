@@ -21,3 +21,4 @@ by 6:53 I modified the properties of the class and added the customner in  Area 
 And changed the startup.cs file 
 
 by 6:55pm moved the home controller file in customer folder. and added the root in Home controller file . 
+after that I added New Admin in Area' folder. 
