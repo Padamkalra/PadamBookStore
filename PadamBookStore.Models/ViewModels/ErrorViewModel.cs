@@ -1,6 +1,6 @@
 using System;
 
-namespace PadamBookStore.Models.ViewModels
+namespace PadamBookStore.Models.ViewModels.ErrorViewModelSS
 {
     public class ErrorViewModel
     {

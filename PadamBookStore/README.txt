@@ -16,3 +16,8 @@ I chaned the name of models folder to view models.
 At 5:48 pm I changed the namespace in erros view models.cs
 
 at 6:01pm I made a class name SD.cs in Padambookstore.utility
+
+by 6:53 I modified the properties of the class and added the customner in  Area folder. 
+And changed the startup.cs file 
+
+by 6:55pm moved the home controller file in customer folder. and added the root in Home controller file . 
