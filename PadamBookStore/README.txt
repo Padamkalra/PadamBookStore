@@ -11,4 +11,6 @@ but now i have figured it out and my drop down is working properly
 11/14/2022
 at 5:30pm I installed NugetPackages into Padambook.DataAccess
 At 5:31 pm I changed the namespace to PadamBookStore.DataAccess.Data
-
+At 5:46 pm I moved the models folder into Padambooks.models  and added the poject refrence of .DataAccess and .Models to PadambookStore.
+I chaned the name of models folder to view models.
+At 5:48 pm I changed the namespace in erros view models.cs
