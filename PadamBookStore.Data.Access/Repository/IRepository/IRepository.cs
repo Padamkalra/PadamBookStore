@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace PadamBookStore.Data.Access.Repository.IRepository
+namespace PadamBookStore.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {

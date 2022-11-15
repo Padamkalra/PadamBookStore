@@ -1,10 +1,12 @@
-﻿using System;
+﻿using PadamBookStore.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PadamBookStore.Data.Access.Repository.IRepository
+namespace PadamBookStore.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository : IRepository<Category>
     {
+        void Update(Category category);
     }
 }
