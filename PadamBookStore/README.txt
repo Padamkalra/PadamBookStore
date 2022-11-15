@@ -41,3 +41,6 @@ Added new DB context and migration through  add-Migration AddCategoryToDb on PM
 
 8:49pm 
 I added a new folder in Migrations named as Respostory in which I added a new folder named IRespository.
+
+at 9:07 
+I added content provided by the professor in the IRespository.cs
