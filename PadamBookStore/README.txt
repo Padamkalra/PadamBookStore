@@ -32,4 +32,6 @@ and ran successfully.
 
 at 7:40pm I updated the databse and it build succesfully
 
+at 8:00pm I added a new class in models project by naming it as Category.cs 
 at 8:07pm I used add-Migration AddCategoryToDb to add the migration to Databae through PM
+at 8:11pm I added "public  DbSet<Category> Categories { get; set; }" in ApplicationDBcontext.cs
