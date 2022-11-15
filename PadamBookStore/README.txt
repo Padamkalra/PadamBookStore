@@ -44,3 +44,6 @@ I added a new folder in Migrations named as Respostory in which I added a new fo
 
 at 9:07 
 I added content provided by the professor in the IRespository.cs
+
+at 9:16pm 
+I added the methods for using the CRUD in IRespository
