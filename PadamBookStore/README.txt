@@ -22,3 +22,4 @@ And changed the startup.cs file
 
 by 6:55pm moved the home controller file in customer folder. and added the root in Home controller file . 
 after that I added New Admin in Area' folder. 
+At 7:00pm I deleted controller folder. 
