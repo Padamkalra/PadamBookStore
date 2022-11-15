@@ -1,10 +1,12 @@
-﻿using PadamBookStore.Models;
+﻿// Added using of the models 
+using PadamBookStore.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
+//Changed the namespace here
 namespace PadamBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -13,6 +15,7 @@ namespace PadamBookStore.DataAccess.Data
             : base(options)
         {
         }
+        //added new statement which was given in the PPT
         public  DbSet<Category> Categories { get; set; }
     }
 }
