@@ -15,4 +15,8 @@
     <ProjectReference Include="..\PadamBookStore.Utility\PadamBookStore.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>
