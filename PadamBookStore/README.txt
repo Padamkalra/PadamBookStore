@@ -60,3 +60,5 @@ at 7:52am in the morning I did cahnges in both ICategoryRepsitory.cs CategoryRep
 at 8:27am in morning I installed the Nuget PAckages of the DApper and it actually started working ... haha :)
 
 by 8:52am i implmented the ISP interface in the SP_Call.cs file and updated the chnages to the github. 
+
+at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
