@@ -19,6 +19,19 @@ namespace PadamBookStore.DataAccess.Repository
          public ICategoryRepository Category { get; private set;  }
 
          public ISP_Call SP_Call { get; private set; } 
+
+
+
+        public void Dispose()
+        {
+            _db.Dispose();
+        }
+
+        public void Save() // aa the changes willl be ssave dwhen the saved methoid is called.
+
+        {
+            _db.SaveChanges();
+        }
     }
 
 }

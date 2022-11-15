@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PadamBookStore.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork :IDisposable
+    interface IUnitOfWork :IDisposable
     {
         ICategoryRepository Category { get; }
 
