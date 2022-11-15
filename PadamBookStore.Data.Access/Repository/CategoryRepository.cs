@@ -8,7 +8,7 @@ using System.Text;
 
 namespace PadamBookStore.DataAccess.Repository
 {
-    public class CategoryRepository : Repository<Category>, PadamBookStore.DataAccess.Repository.IRepository.ICategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
 
     {
 

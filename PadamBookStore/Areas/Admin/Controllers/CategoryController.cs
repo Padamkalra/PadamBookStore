@@ -12,7 +12,7 @@ namespace PadamBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfwork;
-        
+
         public CategoryController(IUnitOfWork unitOfWork)
 
 
