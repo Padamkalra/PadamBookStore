@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PadamBookStore.Data.Access.Repository.IRepository
 {
-    public interface IRespository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         T Get(int id); //Retrieve a category from the database.by id /. List of Categories based on requirements
         // list of Categories based on cmoponents
