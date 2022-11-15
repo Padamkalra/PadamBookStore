@@ -25,3 +25,4 @@ after that I added New Admin in Area' folder.
 At 7:00pm I deleted controller folder. 
 
 At 7:15pm I added modified the database name and saved it. 
+at 7:30pm I added the migration  and updated the database. 
