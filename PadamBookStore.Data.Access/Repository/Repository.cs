@@ -1,5 +1,5 @@
-﻿using PadamBookStore.Data.Access.Repository.IRepository;
-using PadamBookStore.Data.Access;
+﻿using PadamBookStore.DataAccess.Repository.IRepository;
+using PadamBookStore.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

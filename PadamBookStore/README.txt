@@ -56,3 +56,5 @@ I created two files one named ICategoryRepsitory and the other one named as Cate
 
 11/15/2022
 at 7:52am in the morning I did cahnges in both ICategoryRepsitory.cs CategoryRepoitory.cs
+
+at 8:27am in morning I installed the Nuget PAckages of the DApper and it actually started working ... haha :)

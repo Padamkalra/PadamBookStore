@@ -3,6 +3,7 @@ using PadamBookStore.Models;
 using PadamBookStore.DataAccess.Data; 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace PadamBookStore.DataAccess.Repository
@@ -16,10 +17,23 @@ namespace PadamBookStore.DataAccess.Repository
         {
             _db = db;
         }
-        
+
         public void Update(Category category)
         {
-            throw new NotImplementedException();
+            // use.Net LINQ to retrive the first or default category object,
+            // then pass the id as a genirc entity which mathces the category Id
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            if (objFromDb != null) // save the changes if not null
+            {
+                objFromDb.Name = category.Name;
+                _db.SaveChanges();
+
+            }
         }
+
     }
 }
+            
+        
+    
+
