@@ -50,3 +50,6 @@ I added the methods for using the CRUD in IRespository
 
 At 9:41 pm 
 We have done changes provided throguh the text file and saved it in Repository.cs
+
+At 9:46 pm
+I created two files one named ICategoryRepsitory and the other one named as Category Repository 
