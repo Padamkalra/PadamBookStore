@@ -103,12 +103,15 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   I commmit the changes.
 
   5:00 pm 
-  I set all the nuget commands and added migration by using Add-migration AddCoverTypeToDb and then 
+  I set all the nuget commands and added migration by using Add-migration AddCoverTypeToDb  {20221115014025_AddCategoryToDb.cs} and then 
   updated it by using Update-database command. 
 
   at 5:05pm 
   I check my output and wooohooo it is running successfuly. 
 
+  5:30pm
+  I created new class in .models project named as Product.cs and entered the code mentioned in the powerpoint. 
+  
   
 
 
