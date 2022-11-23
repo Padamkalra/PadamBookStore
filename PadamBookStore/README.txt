@@ -106,7 +106,8 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   I set all the nuget commands and added migration by using Add-migration AddCoverTypeToDb and then 
   updated it by using Update-database command. 
 
-
+  at 5:05pm 
+  I check my output and wooohooo it is running successfuly. 
 
   
 
