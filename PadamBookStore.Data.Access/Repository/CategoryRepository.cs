@@ -26,8 +26,8 @@ namespace PadamBookStore.DataAccess.Repository
             if (objFromDb != null) // save the changes if not null
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
-
+                //  _db.SaveChanges();
+                //_unitOfWork.save();
             }
         }
 

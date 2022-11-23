@@ -1,12 +1,13 @@
 ﻿using PadamBookStore.DataAccess.Repository.IRepository;
 using PadamBookStore.DataAccess.Data;
+using PadamBookStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PadamBookStore.DataAccess.Repository
 {
-    public class UnitOfwork //make the method public to  accesss the class
+    public class UnitOfwork : IUnitOfWork //make the method public to  accesss the class
     {
         private readonly ApplicationDbContext _db; //using the statemnt
 
@@ -31,6 +32,11 @@ namespace PadamBookStore.DataAccess.Repository
 
         {
             _db.SaveChanges();
+        }
+        public void save()
+        {
+            _db.SaveChanges();
+            // throw new NotImplementedException();
         }
     }
 

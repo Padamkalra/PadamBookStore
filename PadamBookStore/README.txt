@@ -65,3 +65,28 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
  at 9:48am I added a new class in Repository file names as UnitOfWork.cs
 
  at 10:39 am I created a new folder in views named as category.
+
+ 2022/11/22
+ time: 9:00am
+ I rechecked all my files and looked out for all the errors. 
+
+ 11:00am
+ I found the problems which were producing erros and cleared all the erros. 
+
+ 12:00 pm
+ the error of local host was not showing , so i fixed the error because og the database NS THE ERROR WAS IN VIEWSTART.CSHTML . 
+
+ 2022/11/23
+ 
+ 1:00pm
+ I created new jsfile name category.js wwwroot and saved the changes in that file after that I added the section call of the category.js in
+ the cs.html file. 
+
+ 1:30pm 
+ I created the Upsert file and modified it  with the given code and another partial view file name (_CrateAndBackToListButton.cshtml)
+
+ 2:00pm
+
+  
+
+

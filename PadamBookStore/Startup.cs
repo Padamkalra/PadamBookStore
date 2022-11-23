@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 //using PadamBookStore.Data;
 using PadamBookStore.DataAccess.Data;
 using PadamBookStore.DataAccess.Repository;
+using PadamBookStore.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,7 @@ namespace PadamBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfwork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
