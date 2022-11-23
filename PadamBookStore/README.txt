@@ -86,7 +86,7 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
  I created the Upsert file and modified it  with the given code and another partial view file name (_CrateAndBackToListButton.cshtml)
 
  2:00pm
-
+ in category controller I added the void save() to interface Iunitofwork which allow to save method. 
   
 
 
