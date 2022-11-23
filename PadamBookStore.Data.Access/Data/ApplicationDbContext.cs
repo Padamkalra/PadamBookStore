@@ -17,5 +17,7 @@ namespace PadamBookStore.DataAccess.Data
         }
         //added new statement which was given in the PPT
         public  DbSet<Category> Categories { get; set; }
+        public object CoverTypes { get; internal set; }
+        public object CoverType { get; internal set; }
     }
 }

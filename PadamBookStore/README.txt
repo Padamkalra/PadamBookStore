@@ -102,6 +102,11 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   4:36pm 
   I commmit the changes.
 
+  5:00 pm 
+  I set all the nuget commands and added migration by using Add-migration AddCoverTypeToDb and then 
+  updated it by using Update-database command. 
+
+
 
   
 

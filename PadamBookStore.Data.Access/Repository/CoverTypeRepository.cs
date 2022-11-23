@@ -10,7 +10,7 @@ using System.Text;
 namespace SravansBooks.DataAccess.Repository
 {
 
-    public class CoverTypeRepository : Repository<CoverType>, DataAccess.Repository.IRepository.ICoverTypeRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
         private readonly ApplicationDbContext _db;
 
@@ -31,10 +31,9 @@ namespace SravansBooks.DataAccess.Repository
             //throw new NotImplementedException();
             //use .NET LINQ to retrieve the first or default category object
             // then pass the id as a generic entity which matters the category ID
-            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == covertype.Id);
-            if (objFromDb != null)//Save changes if not null
+           
             {
-                objFromDb.Name = covertype.Name;
+                
                 //_db.SaveChanges();
                 //_unitOfWork.save();
             }
