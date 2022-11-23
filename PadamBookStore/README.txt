@@ -87,6 +87,9 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 
  2:00pm
  in category controller I added the void save() to interface Iunitofwork which allow to save method. 
+
+ 2:30pm 
+ I am finally done with part the ENTIRE PART 2  HAHA:)
   
 
 
