@@ -113,5 +113,6 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   I created new class in .models project named as Product.cs and entered the code mentioned in the powerpoint. 
   
   
-
+  6:14 pm
+  I added the given changes to the applicationDbcontext.cs file .
 
