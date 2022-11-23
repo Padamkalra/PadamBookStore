@@ -91,5 +91,15 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
  2:30pm 
  I am finally done with part the ENTIRE PART 2  HAHA:)
   
+  BREAK TIME
+
+  4:25pm
+  I created a covertype.cs file in viewmodels folder
+
+  4:32pm
+  I made two new class files one in Repository folder named CoverTypeRepository.cs and one in IRepository folder named as ICoverTypeRepository.cs .
+
+
+  
 
 
