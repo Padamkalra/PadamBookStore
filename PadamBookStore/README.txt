@@ -99,6 +99,9 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   4:32pm
   I made two new class files one in Repository folder named CoverTypeRepository.cs and one in IRepository folder named as ICoverTypeRepository.cs .
 
+  4:36pm 
+  I commmit the changes.
+
 
   
 
