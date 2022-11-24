@@ -125,4 +125,8 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   7:20pm
   I added two new files in Co verType folder named as _Viewimports.cshtml and _Viewstart.cshtml
 
-  7:50pm I am done with my 3rd part. phewwwwwwwww:)
+  7:50pm 
+  I am done with my 1st part of 3rd part. phewwwwwwwww:)
+
+   7:55pm
+   I added ProductController.cs file to controllers folder.
