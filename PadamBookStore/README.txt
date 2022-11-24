@@ -143,3 +143,8 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 
   Did some changes in prodcutcontroller.cs file and my API methods of Get Post and Delete are working. 
   
+  9:00am
+  I created an index view in  product file and copied the code from Index.cshtml from categories folder to Index.cshtml file in product folder as stated in the ppt.
+
+  9:13am
+  I did the changes in Index.cshtml file in product and saved it and updated on github repository.

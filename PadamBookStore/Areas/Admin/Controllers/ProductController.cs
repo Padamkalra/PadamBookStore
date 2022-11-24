@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SravansBookStore.Areas.Admin.Controllers
+namespace PadamBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
