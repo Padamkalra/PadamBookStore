@@ -151,3 +151,12 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 
   9:15 am 
   I made a duplicate of category.js and pasted in js folder named as product.js file.
+
+  9:20 am
+  I modified the _Layout.cshtml by adding a new linnk to it named as product 
+  "<a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>"
+
+  and I guess I am done with paer 2 of third section phewwww......
+
+
+
