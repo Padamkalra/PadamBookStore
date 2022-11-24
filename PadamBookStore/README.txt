@@ -148,3 +148,6 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 
   9:13am
   I did the changes in Index.cshtml file in product and saved it and updated on github repository.
+
+  9:15 am 
+  I made a duplicate of category.js and pasted in js folder named as product.js file.
