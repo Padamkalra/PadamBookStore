@@ -7,8 +7,8 @@ namespace PadamBookStore.Models.ViewModels
 {
     public class ProductVM
     {
-        public Product Product { get; set; }
-        public IEnumerable<SelectListItem> CategoryList { get; set; }
+        public Product Product { get; set; }      //displays all the product 
+        public IEnumerable<SelectListItem> CategoryList { get; set; }  //install package 'Microsoft.ASp.NEtCore.Mvc.Viewfeatures 
         public IEnumerable<SelectListItem> CoverTypeList { get; set; }
 
     }

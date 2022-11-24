@@ -131,3 +131,15 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
    7:55pm
    I added ProductController.cs file to controllers folder.
 
+   2022/11/24
+
+   8:10am
+   I finally found the error whihc was coming in Productcontroller.cs file in upsert method and yes i cleared it. 
+   haha
+
+   8:50am
+   It took me one hour to fidgure out the error which was coming in product controller.cs 
+   and I finally cleared it. yeahhh..1
+
+  Did some changes in prodcutcontroller.cs file and my API methods of Get Post and Delete are working. 
+  
