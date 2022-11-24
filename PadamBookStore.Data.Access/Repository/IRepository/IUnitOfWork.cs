@@ -1,4 +1,5 @@
 ﻿using System;
+using PadamBookStore.DataAccess.Repository;
 using System.Collections.Generic;
 using System.Text;
 
@@ -15,7 +16,4 @@ namespace PadamBookStore.DataAccess.Repository.IRepository
         void Save();
     }
 
-    public interface IProductRepository
-    {
-    }
 }

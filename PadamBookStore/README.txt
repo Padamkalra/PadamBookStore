@@ -116,3 +116,13 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   6:14 pm
   I added the given changes to the applicationDbcontext.cs file .
 
+  by 
+  7:00pm I added some files which i did not added which were, category.js file , CoverType.js file. 
+   
+  7:15 pm 
+  I added two new files in category folder named as index.cshtml and upsert.cshtml and I updated them.
+  
+  7:20pm
+  I added two new files in Co verType folder named as _Viewimports.cshtml and _Viewstart.cshtml
+
+  7:50pm I am done with my 3rd part. phewwwwwwwww:)

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SravansBooks.DataAccess.Repository
+namespace PadamBookStore.DataAccess.Repository
 {
 
     public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
@@ -33,6 +33,11 @@ namespace SravansBooks.DataAccess.Repository
             // then pass the id as a generic entity which matters the category ID
            
             {
+                var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == covertype.Id);
+                if(objFromDb != null)
+                {
+                    objFromDb.Name = covertype.Name;
+                }
                 
                 //_db.SaveChanges();
                 //_unitOfWork.save();
