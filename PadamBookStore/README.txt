@@ -229,8 +229,13 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 										<span asp-validation-for="Product.Price100" class="text-danger"></span>
 									</div>
 								</div>
-						
+								
+	4:00pm 
+	After taking a short break 
+      In Areas/Customers/HomeController.cs file I made changes to match the file from the given repository.
+      I built and run the app 
 
+								
 
 				
 
