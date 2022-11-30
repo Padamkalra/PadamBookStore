@@ -178,11 +178,20 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 						public double Price100 { get; set; }
 
 	3:24pm 
-	
-	I used this command to add those validations and new fields 
+	      I used this command to add those validations and new fields 
 							// add-migration AddNewValidationToProduct
 				and neww file was created named as  20221130161723_AddNewValidationToProduct.cs
 							//20221130161723_AddNewValidationToProduct.designer.cs
+
+
+   3:30pm
+   In ProductRepository.cs file I added new properties and validations to the repository
+					
+					objFromDb.Price = product.Price;
+					objFromDb.Price50 = product.Price50;
+					objFromDb.Price100 = product.Price100;
+
+
 				
 
  
