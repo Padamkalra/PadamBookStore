@@ -20,7 +20,7 @@ namespace PadamBookStore.Models
 		[Required]
 		[Range(1, 10000)]
 		public double ListPrice { get; set; }
-		[Required]
+        [Required]
 		[Range(1, 10000)]
 		public double Price { get; set; }
 		[Required]

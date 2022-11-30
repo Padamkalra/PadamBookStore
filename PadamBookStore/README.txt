@@ -165,7 +165,7 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 
   starting with part 4 
   at 3:02pm I added the given  properties into
-  --// In Models/Product.cs added three more properties of price -
+  In Models/Product.cs I added three more properties of price -
 						
 						[Required]
 						[Range(1, 10000)]
@@ -177,7 +177,13 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 						[Range(1, 10000)]
 						public double Price100 { get; set; }
 
-
+	3:24pm 
+	
+	I used this command to add those validations and new fields 
+							// add-migration AddNewValidationToProduct
+				and neww file was created named as  20221130161723_AddNewValidationToProduct.cs
+							//20221130161723_AddNewValidationToProduct.designer.cs
+				
 
  
 
