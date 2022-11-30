@@ -177,5 +177,7 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 						[Range(1, 10000)]
 						public double Price100 { get; set; }
 
+
+
  
 
