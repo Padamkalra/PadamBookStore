@@ -72,7 +72,7 @@ namespace PadamBookStore.Areas.Admin.Controllers
                 if (files.Count > 0)
                 {
                     string fileName = Guid.NewGuid().ToString();
-                    var uploads = Path.Combine(webRootPath, @"\images\products");
+                    var uploads = Path.Combine(webRootPath, @"images\products");
                     var extension = Path.GetExtension(files[0].FileName);
 
                     if (productVM.Product.ImageUrl != null)
@@ -131,13 +131,12 @@ namespace PadamBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        //API CALLS
+
         #region API CALLS
 
         [HttpGet]
         public IActionResult GetAll()
         {
-            //return Notfound()
             var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
         }
