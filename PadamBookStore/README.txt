@@ -199,6 +199,38 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 					public const string Proc_CoverType_Update = "usp_UpdateCoverType";
 					public const string Proc_CoverType_Delete = "usp_DeleteCoverType";
 
+ 3:45pm 
+ In Product/Upsert.cshtml file I  added the  fields for the new properties to enter-
+								
+		<div class="form-group row">
+									<div class="col-4">
+										<label asp-for="Product.Price"></label>
+									</div>
+									<div class="col-8">
+										<input asp-for="Product.Price" class="form-control" />
+										<span asp-validation-for="Product.Price" class="text-danger"></span>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-4">
+										<label asp-for="Product.Price50"></label>
+									</div>
+									<div class="col-8">
+										<input asp-for="Product.Price50" class="form-control" />
+										<span asp-validation-for="Product.Price50" class="text-danger"></span>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-4">
+										<label asp-for="Product.Price100"></label>
+									</div>
+									<div class="col-8">
+										<input asp-for="Product.Price100" class="form-control" />
+										<span asp-validation-for="Product.Price100" class="text-danger"></span>
+									</div>
+								</div>
+						
+
 
 				
 
