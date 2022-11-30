@@ -239,8 +239,8 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
 	I Added same images folder and images inside the folder from the given repository
     
 	4:10pm
-	In Index.cshtml file made chnages to display product on the home page of the application and made changes to match the given file
-    and I  Built the App and  Added three Products
+	In Index.cshtml file I made changes  to display product on the home page of the application and made changes to match the given file
+    and I  Built the App and  Added three Product. 
 								
 								
 
