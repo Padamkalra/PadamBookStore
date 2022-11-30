@@ -161,5 +161,21 @@ at 9:47am I added a new interface in IReposiorty file named as UnitOfWork.cs
   9:29am
   I forgot to add upsert.cshtml file to  product folder so i did now and yeah it is running succesfully....
 
+  2022/11/29
+
+  starting with part 4 
+  at 3:02pm I added the given  properties into
+  --// In Models/Product.cs added three more properties of price -
+						
+						[Required]
+						[Range(1, 10000)]
+						public double Price { get; set; }
+						[Required]
+						[Range(1, 10000)]
+						public double Price50 { get; set; }
+						[Required]
+						[Range(1, 10000)]
+						public double Price100 { get; set; }
+
  
 
